@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mo.css">
+    <title>ToDoist</title>
+</head>
+<body>
+    <h1>Manage your daily tasks</h1>
+    <button id="addTask">Add Task</button>
+    <div id="taskForm" class="hidden">
+        <input type="text" id="taskName" placeholder="Task Name">
+        <input type="date" id="taskDate">
+        <input type="text" id="taskPriority" placeholder="Priority">
+        <button id="submitTask">Submit</button>
+    </div>
+
+    <table class="tb">
+        <tr>
+            <th>taskName</th>
+            <th>taskDate</th>
+            <th>Priority</th>
+            <th>delete</th>
+             
+        </tr>
+        <tbody id="tbody">
+          
+      
+        </tbody>
+    </table>
+    <script src="mo.js"></script>
+</body>
+</html>

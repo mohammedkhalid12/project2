@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
+input{
+    background-color:#001;
+    color:white;
+    border:5px solid #000;
+    border-radius: 20px;
+}
+input:focus{
+background-color: black;
+color:white;
+}
+h1 {
+    border: solid 8px #47479d;
+    background-color: #47479d;
+    border-radius: 20px;
+    color: white;
+    margin: 5px; 
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: 5px solid #47479d ;
+    border-radius: 20px;
+    background-color: #47479d;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:red;
+}
+.dalete
+{
+    background-color: #47479d;
+}
+#taskForm {
+    margin-top: 20px;
+}
+
+#taskForm input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+
+
+}
+table th{
+    text-transform: uppercase;
+
+}
+th,td {
+    padding: 5px;
+}
